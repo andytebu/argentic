@@ -18,7 +18,6 @@ langchain-community = "*"
 langchain-postgres = "*"
 swarm = {git = "https://github.com/openai/swarm.git"}
 
-
 [dev-packages]
 ipykernel = "*"
 ipython = "*"
