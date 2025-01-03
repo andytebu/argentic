@@ -18,6 +18,11 @@ langchain-community = "*"
 langchain-postgres = "*"
 swarm = {git = "https://github.com/openai/swarm.git"}
 phidata = "*"
+smolagents = "*"
+fastapi = {extras = ["standard"], version = "*"}
+pgvector = "*"
+pypdf = "*"
+psycopg = {extras = ["binary"], version = "*"}
 
 [dev-packages]
 ipykernel = "*"
