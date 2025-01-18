@@ -4,37 +4,39 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-openai = "*"
+django = "*"
+fastapi = {extras = ["standard"], version = "*"}
 gradio = "*"
+langchain-community = "*"
+langchain-core = "*"
+langchain-openai = "*"
+langchain-postgres = "*"
+langgraph = "*"
+langgraph-checkpoint-sqlite = "*"
+langgraph-cli = "*"
+langgraph-sdk = "*"
+openai = "*"
+pgvector = "*"
+phidata = "*"
+psycopg = {extras = ["binary"], version = "*"}
 pydantic = "*"
 pydantic-ai = "*"
-langgraph = "*"
-langgraph-sdk = "*"
-langgraph-cli = "*"
-langgraph-checkpoint-sqlite = "*"
-langchain-openai = "*"
-langchain-core = "*"
-langchain-community = "*"
-langchain-postgres = "*"
-swarm = {git = "https://github.com/openai/swarm.git"}
-phidata = "*"
-smolagents = "*"
-fastapi = {extras = ["standard"], version = "*"}
-pgvector = "*"
 pypdf = "*"
-psycopg = {extras = ["binary"], version = "*"}
+smolagents = "*"
+swarm = {git = "https://github.com/openai/swarm.git"}
+dspy = "*"
 
 [dev-packages]
+autopep8 = "*"
+black = "*"
 ipykernel = "*"
 ipython = "*"
-notebook = "*"
+isort = "*"
 jupyter = "*"
 jupyterlab = "*"
 nbstripout = "*"
+notebook = "*"
 pylance = "*"
-black = "*"
-isort = "*"
-autopep8 = "*"
 pytest = "*"
 
 [requires]
