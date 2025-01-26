@@ -13,6 +13,7 @@ pydantic = "*"
 pypdf = "*"
 dspy = "*"
 ollama = "*"
+"google.generativeai" = "*"
 
 [dev-packages]
 autopep8 = "*"
